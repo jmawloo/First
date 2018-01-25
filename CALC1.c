@@ -15,7 +15,7 @@
 		{
 			if(x % 2 == 0){
 			printf("Enter a letter (uppercase only!):\n");
-			printf(" A - Addition\n S - Substraction\n M - Multiplication\n D - Division\n T - Tables\n");	   
+			printf(" A - Addition\n S - Substraction\n M - Multiplication\n D - Division\n T - Tables\n E - Exit\n");	   
             x=0;
 			} 
 			 
