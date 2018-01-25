@@ -13,6 +13,7 @@
 	
 		while(1)
 		{
+			 system("cls");
 			if(x % 2 == 0){
 			printf("Enter a letter (uppercase only!):\n");
 			printf(" A - Addition\n S - Substraction\n M - Multiplication\n D - Division\n T - Tables\n E - Exit\n");	   
@@ -29,7 +30,7 @@
   
 	  var= a+b;
 	 printf("Sum of entered numbers = %f\n",var);
- 
+         getch();
          break;
 		 
 		  case 'S' :
@@ -38,16 +39,16 @@
   
 	  var= a-b;
 	 printf("Difference of entered numbers = %f\n",var);
- 
+         getch();
          break;
 		 
 		  case 'M' :
 	  printf("Enter 2 numbers \n" );
 	  scanf("%f%f",&a,&b);
   
-	  var= a*b;
+	  var= a*b;					
 	 printf("Product of entered numbers = %f\n",var);
- 
+         getch();
          break;
 		  case 'D' :
 	  printf("Enter 2 numbers \n" );
@@ -55,7 +56,7 @@
   
 	  var2 = a/(float)b;
 	 printf("Division of entered numbers = %.20f\n",var2);
- 
+         getch();
          break;
 		 /*case 'Z' :
 	  printf("Enter a number \n" );
@@ -71,8 +72,9 @@
 		 scanf("%f" , &b);
 		 for(i=1;i<=b;i++){
 		 printf("%f * %f = %f \n", a, i, a*i);}
+		 getch();				
 		 break;
-		 
+						
 		 case 'E' :
 		 return(0); 
 		    /*default :
