@@ -5,7 +5,8 @@
 	main (void)
 	{
 	char c;
-			float a,b,var,i,x;
+			float a,b,var,i;
+		        int x;
 			double var2,prod;
 			double ar[200]; 
 			
